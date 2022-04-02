@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "pega-sharepoint-webpart",
+    "libraryId": "1472a475-69aa-42e6-a470-c36d4eb7f266",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "pega-sharepoint-webpart",
+    "solutionShortDescription": "pega-sharepoint-webpart description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

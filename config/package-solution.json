@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "pega-sharepoint-webpart-client-side-solution",
+    "id": "1472a475-69aa-42e6-a470-c36d4eb7f266",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "pega-sharepoint-webpart description"
+      },
+      "longDescription": {
+        "default": "pega-sharepoint-webpart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "pega-sharepoint-webpart Feature",
+        "description": "The feature that activates elements of the pega-sharepoint-webpart solution.",
+        "id": "61ef0004-9000-4e7b-ad6f-df9ecb05bd9e",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/pega-sharepoint-webpart.sppkg"
+  }
+}
