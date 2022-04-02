@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@microsoft/generator-sharepoint": "^1.14.0",
+    "gulp-cli": "^2.3.0"
+  }
+}
