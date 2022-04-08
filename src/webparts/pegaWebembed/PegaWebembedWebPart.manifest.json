@@ -4,25 +4,39 @@
   "alias": "PegaWebembedWebPart",
   "componentType": "WebPart",
 
-  // The "*" signifies that the version should be taken from the package.json
   "version": "*",
   "manifestVersion": 2,
 
-  // If true, the component can only be installed on sites where Custom Script is allowed.
-  // Components that allow authors to embed arbitrary script code should set this to true.
-  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
   "requiresCustomScript": false,
   "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
   "supportsThemeVariants": true,
 
   "preconfiguredEntries": [{
-    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Other
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
     "group": { "default": "Other" },
-    "title": { "default": "Pega Webembed" },
-    "description": { "default": "Pega Webembed description" },
-    "officeFabricIconFontName": "Page",
+    "title": { "default": "Pega WebEmbed component" },
+    "description": { "default": "Embed your Pega cases, views and assignmentsdirectly into your sharepoint pages." },
+    "officeFabricIconFontName": "VisioDiagram",
+    "iconImageUrl":"https://www.pega.com/themes/custom/pegawww_theme/images/pega-logo.svg",
     "properties": {
-      "description": "Pega Webembed"
+      "servers": [
+        {
+          "alias": "concierge",
+          "serverUrl": "https://87.pegatsdemo.com/prweb/",
+          "authservice": "pega",
+          "clientId": "33444740565190151670",
+          "label": "87 Test System"
+        }
+      ],
+      "serverUrl":"https://87.pegatsdemo.com/prweb/",
+      "description": "Pega WebEmbed-12345678",
+      "action":"createCase",
+      "caseType":"OC7LNP-Concierge-Work-ExcelCase",
+      "casePage":"",
+      "appAlias":"concierge",
+      "authService":"pega",
+      "clientId":"33444740565190151670",
+      "advanced": false
     }
   }]
 }
